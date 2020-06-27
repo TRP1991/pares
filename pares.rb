@@ -1,3 +1,12 @@
 num = ARGV[0].to_i
+i = 0
+add = 0
 
-puts "La suma de los números pares es: #{num}", 2 * num = (num * (num + 1))
+while i < num
+    i += 2
+    add += i 
+end
+
+puts add 
+        
+    
